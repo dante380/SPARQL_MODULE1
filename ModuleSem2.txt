@@ -1,0 +1,7 @@
+SELECT ?cityName WHERE 
+{
+
+  ?cityName geo:long "34.551388"^^xsd:float.
+  ?cityName a dbo:Place.  
+  ?cityName geo:lat "49.589443"^^xsd:float.
+ }
